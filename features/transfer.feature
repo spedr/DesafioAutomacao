@@ -34,4 +34,4 @@ Funcionalidade: Realizar Transferência Entre Contas
   Exemplos:
   | email_origem           | pwd_origem | email_destino          | conta_destino | pwd_destino | valor_transferencia |
   | usuario1@bugbank.com   | 123456     | usuario2@bugbank.com   | 234-5         | password1   | 1500                |
-  | usuario1@bugbank.com   | 123456     | usuario2@bugbank.com   | 234-5         | password1   | 12000,88              |
+  | usuario1@bugbank.com   | 123456     | usuario2@bugbank.com   | 234-5         | password1   | 12000,88            |
