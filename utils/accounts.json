@@ -1,0 +1,5 @@
+{
+    "usuario1@bugbank.com": {"name":"usuario1","email":"usuario1@bugbank.com","password":"123456","accountNumber":"123-4","balance":1000,"logged":false},
+    "usuario2@bugbank.com": {"name":"usuario2","email":"usuario2@bugbank.com","password":"password1","accountNumber":"234-5","balance":1000,"logged":false},
+    "usuario3@bugbank.com": {"name":"usuario3","email":"usuario3@bugbank.com","password":"testepwd","accountNumber":"345-6","balance":1000,"logged":false}
+}

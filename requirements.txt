@@ -1,0 +1,5 @@
+webdriver-manager
+selenium
+allure-behave
+behave
+junit2html

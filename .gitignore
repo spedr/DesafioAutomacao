@@ -6,6 +6,15 @@ __pycache__/
 # C extensions
 *.so
 
+# screenshots
+screenshots/
+
+# report folders
+allure-report/
+allure-results/
+junit-html-reports/
+junit-results/
+
 # Distribution / packaging
 .Python
 build/
