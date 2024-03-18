@@ -24,7 +24,7 @@ Caso a instalação do Allure não seja possível, é necessário alterar o valo
 
 O arquivo `config.py` contém várias configurações que controlam o comportamento das suítes de teste. Abaixo está a descrição de cada configuração disponível:
 
-### Motor de Relatório
+### Motor de relatório
 - `REPORT_ENGINE`: Define o tipo de motor de relatório a ser usado para gerar relatórios de teste. As opções disponíveis são:
   - `"allure"`: Usa o Allure para geração de relatórios.
   - `"junit"`: Usa o [junit2html](https://github.com/inorton/junit2html) para geração de um report mais simples, caso a instalação do Allure não seja possível.
@@ -32,13 +32,13 @@ O arquivo `config.py` contém várias configurações que controlam o comportame
 ### Verbosidade
 - `VERBOSE`: Quando definido como `True`, aumenta a verbosidade do log dos testes.
 
-### Abrir Relatório no navegador automaticamente
+### Abrir relatório no navegador automaticamente
 - `AUTO_OPEN_REPORT`: Quando definido como `True`, abre automaticamente o relatório gerado no navegador após a conclusão dos testes.
 
-### Timeout Padrão
+### Timeout padrão
 - `DEFAULT_TIMEOUT`: Especifica o tempo máximo de espera em segundos para as operações durante os testes.
 
-### Opções do Navegador
+### Opções do navegador
 - `BROWSER_HEADLESS`: Quando definido como `True`, executa os testes no modo headless (sem interface gráfica).
 - `BROWSER_TYPE`: Define o tipo de navegador a ser usado para os testes. As opções disponíveis são `"chrome"` e `"firefox"`.
 - `BROWSER_LOCALE`: Define a localidade do navegador. O padrão é `"pt-BR"` para Português Brasileiro, mas pode ser alterado para `"en-US"` para Inglês Americano, etc.
