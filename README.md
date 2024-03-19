@@ -46,3 +46,9 @@ O arquivo `config.py` contém várias configurações que controlam o comportame
 ### junit2html
 - `JUNIT_RESULTS_PATH`: Define o caminho do diretório onde os resultados dos testes no formato JUnit serão salvos. O caminho padrão é `./junit-results`.
 - `HTML_REPORTS_PATH`: Define o caminho do diretório onde os relatórios HTML, gerados a partir dos resultados do JUnit, serão salvos. O caminho padrão é `./junit-html-reports`.
+
+## Detalhes de implementação
+
+Como a aplicação testada não conta com um banco de dados, precisamos começar os testes com uma massa de dados válida e uniforme (em cada teste). Para simplificar o projeto, ao invés de criar as contas no front, optamos por injetar dados válidos diretamente no `localStorage`. Entendo que essa abstração é válida para esse cenário, visto que em um cenário de mundo real, as massas de dados seriam configuradas com operações de banco de dados antes da execução. Esse processo é feito em [`./utils/driver_manager.py`](https://github.com/spedr/DesafioAutomacao/blob/main/utils/driver_manager.py) dentro da função `set_local_storage`.
+
+Alguns bugs encontrados de maneira exploratória também foram encontrados dentro do arquivo [`bugs.md`](https://github.com/spedr/DesafioAutomacao/blob/main/bugs.md).
